@@ -1185,7 +1185,7 @@ const EQUIPOS_LISTA=[
 ];
 
 /* ════ CONEXIÓN GOOGLE SHEETS ════ */
-let GS_URL = localStorage.getItem('gs_url') || 'https://script.google.com/macros/s/AKfycbzq5pcIriNHWue7ZheUICgh9ejj40Cb0NP_xAjsTfIIT2cVYcsLfxPyUo8Eyp9I9pvG/exec';
+let GS_URL = localStorage.getItem('gs_url') || 'https://script.google.com/macros/s/AKfycbwW0utCwqpdFksVL0YWF3yCJBBHt4SsVvoU2IeL0wihQzCdcjhSe1rjX8bImL5XZ9gp/exec';
 
 async function gsCall(accion, datos={}) {
   if (!GS_URL) throw new Error('URL no configurada');
